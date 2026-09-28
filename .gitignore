@@ -1,23 +1,23 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv
+ENV
+env
+.env
+
+# IDEs
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+*.xlsx
+*.xls
+*.csv
+# (Optional) Uncomment the above if you want to keep the raw Excel data out of GitHub for security/size
